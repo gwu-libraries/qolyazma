@@ -1,0 +1,8 @@
+pt-BR:
+  hyrax:
+    icons:
+      manuscript:     'fa fa-file-text-o'
+    select_type:
+      manuscript:
+        description:        "Manuscript obras"
+        name:               "Manuscript"

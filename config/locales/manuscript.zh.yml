@@ -1,0 +1,10 @@
+zh:
+  hyrax:
+    icons:
+      manuscript:     'fa fa-file-text-o'
+    select_type:
+      manuscript:
+        # TODO: translate `human_name` into Chinese
+        description:        "Manuscript 作品"
+        name:               "Manuscript"
+        # TODO: translate `human_name` into Chinese

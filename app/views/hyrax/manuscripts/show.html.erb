@@ -1,0 +1,231 @@
+<% provide :page_title, @presenter.page_title %>
+
+<%= render 'shared/citations' %>
+
+<div class="row work-type">
+  <div class="col-sm-12">
+    <%= render 'work_type', presenter: @presenter %>
+  </div>
+  <div itemscope itemtype="http://schema.org/CreativeWork" class="col-xs-12">
+    <%= render 'work_title', presenter: @presenter %>
+    <%= render 'show_actions', presenter: @presenter %>
+    <div class="panel panel-default">
+      <div class="panel-body">
+        <div class="row">
+          <%= render 'workflow_actions_widget', presenter: @presenter %>
+          <% if @presenter.iiif_viewer? %>
+            <div class="col-sm-4">
+              <%= render 'representative_media', presenter: @presenter, viewer: true %>
+            </div>
+            <div class="col-sm-4">
+              <p class=MsoNormal dir=RTL style='text-align:right;direction:rtl;unicode-bidi:
+embed'><span dir=RTL></span><span lang=UG-CN style='font-family:"Arabic Typesetting"'><span
+dir=RTL></span>1 ﷽</span></p>
+
+<p class=MsoNormal dir=RTL style='text-align:right;direction:rtl;unicode-bidi:
+embed'><span lang=UG-CN style='font-family:"Arial",sans-serif'>2 </span><span
+lang=UG-CN style='font-family:"Arabic Typesetting"'>حمد بيحد اول واجب
+الوجوديغه، کم حکمت غامضەسى برله کل موجودات‌نى عدم خلوتخانەسيدين وجود</span></p>
+
+<p class=MsoNormal dir=RTL style='text-align:right;direction:rtl;unicode-bidi:
+embed'><span dir=RTL></span><span lang=UG-CN style='font-family:"Arial",sans-serif'><span
+dir=RTL></span>3 </span><span lang=UG-CN style='font-family:"Arabic Typesetting"'>شهرستانيغه
+کلتوردى؛ و ثنايى بيعد اول مالک الملکى‌غه، کم قدرت کامله‌سى برله تاج خلافت و
+افسر سلطنت‌نى</span></p>
+
+<p class=MsoNormal dir=RTL style='text-align:right;direction:rtl;unicode-bidi:
+embed'><span lang=UG-CN style='font-family:"Arial",sans-serif'>4 </span><span
+lang=UG-CN style='font-family:"Arabic Typesetting"'>هر کم‌نينک باشيغه خواەلسە
+قويدى؛ و هر کمدين خواەلسە آلدى؛ و هر کمکا خواەلسە بردى. «تُؤْتِي الْمُلْكَ مَن
+تَشَاءُ</span></p>
+
+<p class=MsoNormal dir=RTL style='text-align:right;direction:rtl;unicode-bidi:
+embed'><span lang=UG-CN style='font-family:"Arial",sans-serif'>5 </span><span
+lang=UG-CN style='font-family:"Arabic Typesetting"'>وَتَنزِعُ الْمُلْكَ مِمَّن
+تَشَاءُ وَتُعِزُّ مَن تَشَاءُ وَتُذِلُّ مَن تَشَاءُ</span><span dir=LTR></span><span
+dir=LTR><span dir=LTR></span>&nbsp;</span><span lang=UG-CN style='font-family:
+"Arabic Typesetting"'>بِيَدِكَ الْخَيْرُ». و سپاس بيقياس اول حکمى‌غە، کم محض
+حکمت</span></p>
+
+<p class=MsoNormal dir=RTL style='text-align:right;direction:rtl;unicode-bidi:
+embed'><span lang=UG-CN style='font-family:"Arial",sans-serif'>6 </span><span
+lang=UG-CN style='font-family:"Arabic Typesetting"'>شاملەسى برلە انسان کروهى
+انتظامى‌نى سلطان ذوى الاقتدارلار لطف و سپايشى‌غە منوط و مربوط</span></p>
+
+<p class=MsoNormal dir=RTL style='text-align:right;direction:rtl;unicode-bidi:
+embed'><span lang=UG-CN style='font-family:"Arial",sans-serif'>7 </span><span
+lang=UG-CN style='font-family:"Arabic Typesetting"'>قيلدى. رباعى: ذاتى کە انينک
+قُلْ هُوَ اللَّهُ أَحَدٌ | حىّ‌کە بلا طعام‌دور اللَّهُ الصَّمَدُ | فردى کە يوق
+والد نە</span></p>
+
+<p class=MsoNormal dir=RTL style='text-align:right;direction:rtl;unicode-bidi:
+embed'><span lang=UG-CN style='font-family:"Arial",sans-serif'>8 </span><span
+lang=UG-CN style='font-family:"Arabic Typesetting"'>ولد | وتريکى کە لَمْ يَكُن&nbsp;لَّهُ
+كُفُوًا أَحَدٌ. </span><span lang=FA style='font-family:"Arabic Typesetting"'>صلواة
+زاکيات اول پادشاە رسالت مسند جلاليت‌غە نثار</span></p>
+
+<p class=MsoNormal dir=RTL style='text-align:right;direction:rtl;unicode-bidi:
+embed'><span lang=UG-CN style='font-family:"Arial",sans-serif'>9 </span><span
+lang=FA style='font-family:"Arabic Typesetting"'>اولغاى کم</span><span
+lang=UG-CN style='font-family:"Arabic Typesetting"'>، «كُنْتُ نَبِيًّا وَآدَمُ
+بَيْنَ الْمَاءِ وَالطِّينِ» دبدبە اصالتى‌دين تخت سلطنت‌غە لايق و سزاوار</span></p>
+
+<p class=MsoNormal dir=RTL style='text-align:right;direction:rtl;unicode-bidi:
+embed'><span lang=UG-CN style='font-family:"Arial",sans-serif'>10 </span><span
+lang=UG-CN style='font-family:"Arabic Typesetting"'>اولدور. و تحفە تحيات و درود
+بيغايات اول سلطان رسالت‌غە، کم «وَمَا أَرْسَلْنَاكَ إِلَّا رَحْمَةً
+لِّلْعَالَمِينَ»</span></p>
+
+<p class=MsoNormal dir=RTL style='text-align:right;direction:rtl;unicode-bidi:
+embed'><span lang=UG-CN style='font-family:"Arial",sans-serif'>11 </span><span
+lang=UG-CN style='font-family:"Arabic Typesetting"'>وکبە رسالتى‌دين قربت‌غە دم
+اورماق اولارنينک شأنيکا لايق‌دور. رباعى: شاهى کە عربى قبلۀ حاجات |</span></p>
+
+<p class=MsoNormal><span dir=LTR></span><span dir=LTR></span>/9/ [2r]</p>
+
+<p class=MsoNormal dir=RTL style='text-align:right;direction:rtl;unicode-bidi:
+embed'><span dir=RTL></span><span lang=UG-CN style='font-family:"Arial",sans-serif'><span
+dir=RTL></span>1 </span><span lang=UG-CN style='font-family:"Arabic Typesetting"'>آينە
+ذات اولدى مرآت صفات | کيم پى روى‌ليک ايتسە انکا علو درجات | لازال عليە زاکيات
+صلواة. اول رسالت</span></p>
+
+<p class=MsoNormal dir=RTL style='text-align:right;direction:rtl;unicode-bidi:
+embed'><span lang=UG-CN style='font-family:"Arial",sans-serif'>2 </span><span
+lang=UG-CN style='font-family:"Arabic Typesetting"'>درکاﻩيغە بارچەدين سابق و
+يارغارى صديق اعنى ابو بکرى صديق رضى اللە عنە، و اول عدالت مآب و صاحب الدرّ
+والحساب</span></p>
+
+<p class=MsoNormal dir=RTL style='text-align:right;direction:rtl;unicode-bidi:
+embed'><span lang=UG-CN style='font-family:"Arial",sans-serif'>3 </span><span
+lang=UG-CN style='font-family:"Arabic Typesetting"'>اعنى عمر بن الخطابى رضى
+اللە عنە، و اول معدن جود سخاء والاحسان و منبع حلم حياء و جامع القرآن اعنى عثمان
+بن عفان رضى اللە عنە،</span></p>
+
+<p class=MsoNormal dir=RTL style='text-align:right;direction:rtl;unicode-bidi:
+embed'><span lang=UG-CN style='font-family:"Arial",sans-serif'>4 </span><span
+lang=UG-CN style='font-family:"Arabic Typesetting"'>و اول رضايى الهى‌غە جان
+دليدين راغب اسد اللە الغالب، اعنى على ابى طالب رضى اللە عنە، و علىَ الە واصحابە
+وازواجە وذرياة</span></p>
+
+<p class=MsoNormal dir=RTL style='text-align:right;direction:rtl;unicode-bidi:
+embed'><span lang=UG-CN style='font-family:"Arial",sans-serif'>5 </span><span
+lang=UG-CN style='font-family:"Arabic Typesetting"'>وسلم تسليماً داىٔما ابدا
+حمدا کثيرا کثيرا. </span><span lang=AR-SA style='font-family:"Arabic Typesetting"'>امّا
+بعد: جهان فاضل و عاقل‌لارى‌نينک طبع سليم بيضا تنظيرلاريغە و دوران عالم</span></p>
+
+<p class=MsoNormal dir=RTL style='text-align:right;direction:rtl;unicode-bidi:
+embed'><span lang=UG-CN style='font-family:"Arial",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal dir=RTL style='text-align:right;direction:rtl;unicode-bidi:
+embed'><span lang=UG-CN style='font-family:"Arial",sans-serif'>&nbsp;</span></p>
+            </div>
+            <div class="col-sm-4">
+              <p class=MsoNormal>1 <span style='font-variant:small-caps'>In the Name of God,
+the Merciful, the Compassionate</span></p>
+
+<p class=MsoNormal>2 Boundless praise to the Lord of Existence, who by His
+enigmatic command brought all of Creation in a single moment from the solitude
+of nonbeing</p>
+
+<p class=MsoNormal>3 into the city of being; and countless laudations to the
+King of Kings, who by His omnipotence places the crowns of caliphate and
+sultanate</p>
+
+<p class=MsoNormal>4 upon the heads of whom He will; and takes them from those
+whom He will; and grants them to those whom He will. <span style='font-variant:
+small-caps'>Thou givest sovereignty unto whom Thou wilt,</span></p>
+
+<p class=MsoNormal><span style='font-variant:small-caps'>5 and Thou withdrawest
+sovereignty from whom Thou wilt. Thou exaltest whom Thou wilt, and abasest whom
+Thou wilt.</span> [Quran 3:26] And gratitude without measure to that Judge, who
+by His mere command</p>
+
+<p class=MsoNormal>6  bound the ordering of the peoples to the benevolence and
+leadership of powerful</p>
+
+<p class=MsoNormal>7 rulers. [Verse:] An essence: <span style='font-variant:
+small-caps'>Say, he is Allah, the One</span>! | A lord: <span style='font-variant:
+small-caps'>Allah, the eternally Besought of all! </span>| A matchless one, <span
+style='font-variant:small-caps'>He begetteth not nor was </span></p>
+
+<p class=MsoNormal><span style='font-variant:small-caps'>8 begotten</span>— | A
+solitary one, <span style='font-variant:small-caps'>there is none comparable to
+Him</span>. [Quran 112] May prayers be scattered without end upon that majestic
+king, the foundation of the Message, </p>
+
+<p class=MsoNormal>9 who, per the hadith stating that <span style='font-variant:
+small-caps'>He was the Prophet when Adam was still between water and clay</span>,<a
+href="#_ftn1" name="_ftnref1" title=""><sup><sup><span style='font-size:12.0pt;
+font-family:"Times New Roman",serif'>[1]</span></sup></sup></a> is the one
+worthy of the throne of sultanate.</p>
+
+<p class=MsoNormal>10 And give salutations without limit to that sultan of
+prophecy, for <span style='font-variant:small-caps'>We sent thee not save as a
+mercy for the peoples </span>[Quran 21:102]—</p>
+
+<p class=MsoNormal>11 it was his task alone to spread the Message. [Verse:] An
+Arab lord, <span style='font-variant:small-caps'>to whom we turn for aid</span>—
+| </p>
+
+<p class=MsoNormal>/9/ [2r]</p>
+
+<p class=MsoNormal>1 He was like a mirror, a reflection of the One. | Whoever
+follows him gains an exalted station; | May prayers for him never cease nor
+fade. Upon him who in the</p>
+
+<p class=MsoNormal>2 court of the Message was its most faithful friend, Abū
+Bakrī Ṣadīq, <span style='font-variant:small-caps'>may God be content with
+him</span>! Upon that prosecutor of justice and master of coin and account,</p>
+
+<p class=MsoNormal>3 ʿUmr b. al-Khaṭṭāb, <span style='font-variant:small-caps'>may
+God be content with him</span>! Upon that mine of generosity and kindness,
+source of forbearance and modesty, and compiler of the Quran, ʿUthmān b. ʿAffān,
+<span style='font-variant:small-caps'>may God be content with him</span>!</p>
+
+<p class=MsoNormal>4 Upon he who desired the approval of God from the bottom of
+his heart, the Lion of God, ʿAlī b. Abī Ṭālib, <span style='font-variant:
+small-caps'>may God be content with him</span>! And upon the Prophet’s
+companions, wives, </p>
+
+<p class=MsoNormal>5 and children, a peace everlasting and ever-increasing.</p>
+            </div>
+          <% end %>
+        </div>
+        <div>
+          <div class="col-sm-3 text-center">
+            <%= render 'representative_media', presenter: @presenter, viewer: false unless @presenter.iiif_viewer? %>
+            <%= render 'citations', presenter: @presenter %>
+            <%= render 'social_media' %>
+          </div>
+          <div class="col-sm-9">
+            <%= render 'work_description', presenter: @presenter %>
+            <%= render 'metadata', presenter: @presenter %>
+          </div>
+        </div>
+      </div>
+    </div><!-- /panel -->
+
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h1 class="panel-title"><%= t('hyrax.base.show.relationships') %></h1>
+      </div>
+      <div class="panel-body">
+        <%= render 'relationships', presenter: @presenter %>
+      </div>
+    </div>
+
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h1 class="panel-title"><%= t('.items') %></h1>
+      </div>
+      <div class="panel-body">
+        <%= render 'items', presenter: @presenter %>
+      </div>
+    </div>
+
+    <%# TODO: we may consider adding these partials in the future %>
+    <%# = render 'sharing_with', presenter: @presenter %>
+    <%# = render 'user_activity', presenter: @presenter %>
+
+  </div>
+</div>

@@ -1,0 +1,10 @@
+es:
+  hyrax:
+    icons:
+      manuscript:     'fa fa-file-text-o'
+    select_type:
+      manuscript:
+        # TODO: translate `human_name` into Spanish
+        description:        "Manuscript trabajos"
+        name:               "Manuscript"
+        # TODO: translate `human_name` into Spanish

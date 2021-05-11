@@ -1,0 +1,8 @@
+de:
+  hyrax:
+    icons:
+      manuscript:     'fa fa-file-text-o'
+    select_type:
+      manuscript:
+        description:        "Manuscript Werke"
+        name:               "Manuscript"
