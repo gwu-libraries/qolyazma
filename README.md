@@ -1,24 +1,41 @@
-# README
+# Qolyazma
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Install docker and docker-compose
 
-Things you may want to cover:
+* TBD
 
-* Ruby version
+## Solr & Fedora setup
 
-* System dependencies
+* Create a `/data` directory
 
-* Configuration
+* Create a `/data/fcrepo_data` directory and `chown` it to `systemd-network:systemd-journal`
 
-* Database creation
+* Create a `/data/solr_data` directory and `chown` it to `8983:8983`
 
-* Database initialization
+* In the app directory, run `docker-compose up -d`
 
-* How to run the test suite
+* `docker exec` into the solr container, and run:
 
-* Services (job queues, cache servers, search engines, etc.)
+  `solr create_core -c hydra-development -d /opt/solr/server/configsets/hyraxconf`
+  
+  Fix this ^^ to run from outside the container
+  
 
-* Deployment instructions
+## App setup
 
-* ...
+* TBD
+
+* Set up default admin set and default workflow
+
+```
+rake hyrax:default_admin_set:create 
+rake hyrax:workflow:load
+```
+* Set up admin user
+
+### Install Universal Viewer ("uv")
+
+```
+yarn install
+rake assets:precompile
+```
