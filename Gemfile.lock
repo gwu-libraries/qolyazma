@@ -636,7 +636,8 @@ GEM
     posix-spawn (0.3.15)
     power_converter (0.1.2)
     public_suffix (4.0.6)
-    puma (3.12.6)
+    puma (4.3.8)
+      nio4r (~> 2.0)
     qa (5.6.0)
       activerecord-import
       deprecation
@@ -949,7 +950,7 @@ DEPENDENCIES
   jbuilder (~> 2.5)
   jquery-rails
   listen (>= 3.0.5, < 3.2)
-  puma (~> 3.11)
+  puma (~> 4.3.8)
   rails (~> 5.2.6)
   riiif (~> 2.1)
   rsolr (>= 1.0, < 3)
